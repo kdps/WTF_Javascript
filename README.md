@@ -12,3 +12,7 @@ https://stackoverflow.com/questions/7214293/is-the-order-of-elements-in-a-json-l
 
 An object is an unordered collection of zero or more name/value pairs, where a name is a string and a value is a string, number, boolean, null, object, or array.
 `An array is an ordered sequence of zero or more values.`
+
+keeps all keys in insertion order except for keys that can be parsed as unsigned 32-bit integers.
+
+`Some JavaScript engines keep keys in insertion order. V8` WTF
